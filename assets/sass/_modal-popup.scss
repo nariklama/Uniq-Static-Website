@@ -1,0 +1,125 @@
+/* ================================================
+ * MODAL POPUP CSS
+ * ================================================== */
+#ouibounce-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+#ouibounce-modal .underlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+#ouibounce-modal .modal {
+  animation: 0.3s ease 0s normal none 1 running popin;
+  background-color: transparent;
+  border-radius: 4px;
+  display: block;
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 600px;
+  z-index: 1;
+  margin-top: 100px;
+  overflow: visible;
+}
+#ouibounce-modal .modal-body {
+  padding: 45px 30px;
+}
+#ouibounce-modal .modal-dialog {
+	margin: 0 auto;
+}
+.modal-image-box {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  overflow: hidden;
+  box-shadow: 0 0 100px rgba(0,0,0,0.15);
+  
+}
+.modal-image-box img {
+  width: 100%;
+}
+
+.modal-description {
+  margin-left: 160px;
+  margin-right: 40px;
+}
+.modal-description .details {}
+.modal-description .details h2 {
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin: 0 auto 20px;
+  text-transform: capitalize;
+}
+.modal-description .details p {
+  line-height: 28px;
+  margin: 0;
+}
+.modal-description form {
+  margin-top: 30px;
+}
+.modal-description input {
+  height: 44px;
+  background-color: #f6faf9;
+  margin-bottom: 20px;
+}
+.modal-description .btn-modal {
+  height: 44px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.modal-description .btn-modal:hover {
+  opacity: 0.85;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popin {
+  0% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+} 

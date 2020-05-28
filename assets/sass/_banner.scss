@@ -1,0 +1,451 @@
+
+/* =====================================
+ * BANNER CSS
+ * ===================================== */
+
+.banner {
+  background-color: #f6f6f6;
+  height: 700px;
+  position: relative;
+}
+
+.banner.paw-ripe {
+  background-image: url("../img/banner/paw-top-ripe.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+}
+
+.banner.paw-ripe::before {
+  background-image: url("../img/banner/paw-bot-ripe.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  bottom: 0;
+  content: "";
+  height: 350px;
+  left: 0;
+  position: absolute;
+  width: 350px;
+}
+.banner.paw-fisher {
+  background-image: url("../img/banner/paw-top-fisher.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+}
+
+.banner.paw-fisher::before {
+  background-image: url("../img/banner/paw-bot-fisher.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  bottom: 0;
+  content: "";
+  height: 350px;
+  left: 0;
+  position: absolute;
+  width: 350px;
+}
+
+.banner::after {
+  background-image: url("../img/banner/angle-down-1.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  bottom: -200px;
+  content: "";
+  height: 200px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.banner-texts {
+  margin-top: 40%;
+}
+.banner-texts .big-logo-text {
+  color: #585b60;
+  font-family: "Monoton",cursive;
+  font-size: 70px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.banner-texts h2 {
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+.banner-texts .buttons {
+  margin-top: 30px;
+}
+
+
+/* Banner Phones */
+.banner-one-phone-2 {
+  max-width: 800px;
+  position: absolute;
+  right: -60px;
+  top: 150px;
+}
+.banner-iwatch-alt {
+  max-width: 480px;
+  margin-top: 50px;
+}
+
+
+/* banner two */
+.banner-two {
+ height: 720px;
+ position: relative;
+}
+.banner-two-contents {
+  margin-top: 38%;
+}
+.banner-two-contents h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 56px;
+  margin: 0 0 30px;
+}
+.banner-two-contents p {
+  color: #fff;
+}
+.banner-two-contents .btn {
+  margin-right: 15px;
+}
+.banner-two-contents .btn-transparent {
+  color: #fff;
+  border-color: #fff;
+}
+.banner-two-contents .btn-transparent:hover {
+  color: #585b60;
+  background-color: #fff;
+  border-color: #fff;
+}
+.banner-two-phone {
+  max-width: 600px;
+  position: absolute;
+  top: 150px;
+  right: 10%;
+}
+
+.promo-texts {
+  padding-bottom: 120px;
+}
+.promo-texts h2 {
+  font-weight: 100;
+  margin: 25px 0 20px;
+}
+.promo-texts p {}
+
+
+
+/* Banner Three */
+.banner-three {
+  overflow: hidden;
+  position: relative;
+  height: 780px;
+}
+.banner-three:before,
+.banner-four:before,
+.banner-five:before {
+  content:" ";
+  background-image: url("../img/banner/lines.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  bottom: 200px;
+  content: "";
+  height: 400px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.banner-three:after {
+  content:" ";
+  background-image: url("../img/banner/white-angle-bottom.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  bottom: -20px;
+  content: "";
+  height: 140px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.banner-three-contents {
+  margin-top: 30%;
+}
+.banner-three-contents h2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 54px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+.banner-three-contents p {
+  color: #fff;
+}
+
+.banner-three-icon-btn {
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 240px;
+  margin: 0 0 15px;
+}
+.banner-three-icon-btn .et-icon {
+  float: left;
+  font-size: 40px;
+  margin-top: 10px;
+  padding: 0 15px 0 0;
+}
+.banner-three-icon-btn .big {
+  display: block;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+
+.btn-banner-three {
+  background-color: #fff;
+  color: #445361;
+  font-size: 26px;
+  margin-right: 30px;
+  padding: 12px 28px;
+  margin-bottom: 10px;
+}
+.btn-banner-three .fa {
+  margin-left: 5px;
+}
+.btn-banner-three:hover .fa {
+  color: #a29f9f;
+}
+
+.banner-three-phone {
+  margin:150px auto 0;
+  display: block;
+  max-width: 420px;
+}
+
+/* Banner four */
+.banner-four {
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.banner-four:after {
+  content:" ";
+  background-image: url("../img/banner/white-angle-bottom-2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  content: "";
+  height: 140px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.banner-four-contents {
+  text-align: center;
+}
+.banner-four-contents .big-logo {
+  color: #fff;
+  font-family: "Monoton",cursive;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 30px;
+}
+.banner-four-contents h2 {
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0 auto 30px;
+}
+.banner-four-contents {
+  margin-top: 200px;
+}
+.banner-four-contents .btn-banner-four {
+}
+.banner-four-phone {
+  margin-top: 50px;
+}
+.banner-four-phone img {
+  max-width: 750px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+}
+
+/* Banner Five */
+.banner-five {
+  height: 700px;
+  position: relative;
+}
+.banner-five-contents {
+  margin-top: 25%;
+}
+.banner-five-contents .big-texts {
+  color: #fff;
+  font-family: "monoton",cursive;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+.banner-five-contents .big-texts .et-icon {
+  margin-left: 10px;
+}
+.banner-five-contents p {
+	color: #fff;
+}
+.banner-five-phone {}
+.banner-five-phone img {
+  bottom: 0;
+  max-width: 500px;
+  position: absolute;
+  right: 0;
+}
+
+.banner-five.before-none:before {
+  content:"";
+  display: none;
+}
+
+/* Banner eight */
+.banner-style-8-wrap {
+  height: 700px;
+}
+.banner-style-8 {
+  margin-top: 16%;
+}
+.banner-style-8 .one {
+  font-size: 52px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.banner-style-8 .two {
+  font-size: 45px;
+  font-weight: 100;
+  margin: 25px auto 60px;
+  text-transform: capitalize;
+}
+
+/* Banner nine */
+.banner-four.four-alt {
+  height: 800px;
+}
+.banner-four.four-alt .banner-style-8 {
+  margin-top: 20%;
+  color: #fff;
+}
+.banner-four.four-alt .banner-style-8 .one {
+  text-transform: capitalize;
+}
+.banner-four.four-alt .banner-style-8 .one,
+.banner-four.four-alt .banner-style-8 .two {
+  color: #fff;
+}
+
+/* banner ten */
+.banner-10 {
+  margin-top: 150px;
+}
+.banner-10 .one {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.banner-10 .two {
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin: 25px 0 30px;
+  text-transform: capitalize;
+}
+.banner-10 .texts {
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  max-width: 600px;
+}
+.banner-10 .social {}
+.banner-10 .social li  {
+  display: inline-block;
+}
+.banner-10 .social li a {
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 50%;
+  padding-top: 16px;
+  margin-right: 10px;
+  background-color: #4d4d4d;
+  color: #fff;
+  box-shadow:  0 0 10px rgba(0,0,0,0.15);
+}
+.banner-10 .social li a:hover {
+  background-color: #2d2d2d;
+}
+
+
+/* Banner eleven */
+#video_banner {
+ position: relative;
+ background: transparent;
+}
+
+.ytplayer-container{
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+.banner-11 {
+  padding-top: 200px;
+  height: 100%;
+}
+.banner-11-inner {
+  background-color: rgba(255,255,255,0.75);
+  padding: 60px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+.banner-11-inner .one {
+  letter-spacing: 10px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 100;
+}
+.banner-11-inner .two {
+  font-size: 22px;
+  font-weight: 100;
+  margin: 22px auto 30px;
+}
+
+.rtl-image {
+    max-width: 350px;
+    margin-top: 120px;
+}
+

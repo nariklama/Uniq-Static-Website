@@ -1,0 +1,338 @@
+/* =================================================
+ * BUTTONS CSS
+ * ============================================= */
+.btn {
+  border: none;
+  transition: all 0.3s ease 0s;
+}
+.btn.active.focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn:active.focus, 
+.btn:active:focus, 
+.btn:focus {
+  outline: none;
+  outline-offset: 0;
+}
+.btn-lg {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 10px 22px;
+  text-transform: capitalize;
+}
+
+.btn-circle {
+    border-radius: 50px;
+}
+
+.btn-shadow {}
+
+.btn-white {
+    background-color: #fff;
+    color: #585b5b;
+}
+.btn-white:focus,
+.btn-white:hover {
+  opacity: 0.85;
+}
+.btn-transparent {
+    background-color: transparent;
+    color: #585b5b;
+    border: 1px solid #585b5b;
+}
+.btn-transparent:focus,
+.btn-transparent:hover {
+    background-color: #fff;
+    color: #585b5b;
+  border-color: #fff;
+}
+
+.btn-dark {
+    background-color: #282828;
+    color: #fff;
+}
+.btn-dark:focus,
+.btn-dark:hover {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+.btn-ripe {
+  background-image: -webkit-linear-gradient(bottom left, #f093fb 0%, #f5576c 100%);
+  background-image: -o-linear-gradient(bottom left, #f093fb 0%, #f5576c 100%);
+  background-image: linear-gradient(to top right, #f093fb 0%, #f5576c 100%);
+  background-color: #f275b5;
+  color: #fff;
+}
+.btn-ripe.btn-shadow {
+  box-shadow: 0 3px 20px rgba(245, 57, 108, 0.45)
+}
+.btn-ripe:focus,
+.btn-ripe:hover {
+  color: #fff;
+  background-image: -webkit-linear-gradient(left, #f5576c 0%, #f093fb 100%);
+  background-image: -o-linear-gradient(left, #f5576c 0%, #f093fb 100%);
+  background-image: linear-gradient(to right, #f5576c 0%, #f093fb 100%);
+}
+
+.btn-fisher {
+  background-image: -webkit-linear-gradient(bottom left, #89f7fe 0%, #66a6ff 100%);
+  background-image: -o-linear-gradient(bottom left, #89f7fe 0%, #66a6ff 100%);
+  background-image: linear-gradient(to top right, #89f7fe 0%, #66a6ff 100%);
+  background-color: #78D0FE;
+  color: #fff;
+}
+.btn-fisher.btn-shadow {
+  box-shadow: 0 3px 20px rgba(102, 166, 255, 0.45);
+}
+.btn-fisher:focus,
+.btn-fisher:hover {
+  color: #fff;
+  background-image: -webkit-linear-gradient(bottom left, #66a6ff 0%, #89f7fe 100%);
+  background-image: -o-linear-gradient(bottom left, #66a6ff 0%, #89f7fe 100%);
+  background-image: linear-gradient(to top right, #66a6ff 0%, #89f7fe 100%);
+  background-color: #78D0FE;
+}
+
+.btn-fader {
+  background-image: -webkit-linear-gradient(bottom left, #a18cd1 0%, #fbc2eb 100%);
+  background-image: -o-linear-gradient(bottom left, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top right, #a18cd1 0%, #fbc2eb 100%);
+  background-color: #fbc2eb;
+  color: #fff;
+}
+.btn-fader.btn-shadow {
+  box-shadow: 0 3px 20px rgba(161, 140, 209, 0.45);
+}
+.btn-fader:focus,
+.btn-fader:hover {
+  background-image: -webkit-linear-gradient(bottom left, #fbc2eb 0%, #a18cd1 100%);
+  background-image: linear-gradient(to top right, #fbc2eb 0%, #a18cd1 100%);
+  background-color: #fbc2eb;
+  color: #fff;
+}
+
+.btn-wine {
+  background-image: -webkit-linear-gradient(bottom left, #fb4c7f 0%, #573d7d 100%);
+  background-image: linear-gradient(to top right, #fb4c7f 0%, #573d7d 100%);
+  background-color: #7b4c7f;
+  color: #fff;
+}
+.btn-wine.btn-shadow {
+  box-shadow: 0 3px 20px rgba(87, 61, 125, 0.45);
+}
+.btn-wine:focus,
+.btn-wine:hover {
+  background-image: -webkit-linear-gradient(bottom left, #573d7d 0%, #fb4c7f 100%);
+  background-image: linear-gradient(to top right, #573d7d 0%, #fb4c7f 100%);
+  background-color: #7b4c7f;
+  color: #fff;
+}
+
+.btn-beach {
+  background-image: linear-gradient(45deg, #76c4ff 0%, #77bff8 100%);
+  background-color: #76c4ff;
+  color: #fff;
+}
+.btn-beach.btn-shadow {
+  box-shadow: 0 3px 20px rgba(118, 196, 255, 0.45);
+}
+.btn-beach:focus,
+.btn-beach:hover {
+  background-image: linear-gradient(45deg, #77bff8 0%, #76c4ff 100%);
+  background-color: #76c4ff;
+  color: #fff;
+}
+
+
+
+.gorilla-big-btn {
+    font-family: "Roboto",sans-serif;
+    padding: 5px 20px;
+    margin-right: 10px;
+
+}
+.gorilla-big-btn .fa {
+    float: left;
+    font-size: 30px;
+    margin-top: 4px;
+    padding: 0;
+}
+.gorilla-big-btn .normal-txt {
+    display: block;
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 2px;
+    padding-left: 30px;
+    padding-right: 15px;
+    text-transform: capitalize;
+}
+.gorilla-big-btn .big-txt {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -3px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+/* ------------------------------------
+ * Buttons Hover Effects
+ * ------------------------------- */
+.hover-box {
+  padding: 30px;
+  transition: all 0.3s ease 0s;
+}
+.hover-box:hover {
+  margin-top: -5px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);  
+}
+.hover-box.white:hover {
+  background-color: #fff; 
+}
+.hover-flat {
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+ 
+.hover-flat::before {
+  content: "";
+  height: 10px;
+  left: 5%;
+  opacity: 0;
+  z-index: -1;
+  width: 90%;
+  top: 100%;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(center center ellipse , rgba(0, 0, 0, 0.15) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(center center ellipse , rgba(0, 0, 0, 0.15) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , rgba(0, 0, 0, 0.15) 0%, transparent 80%) repeat scroll 0 0;
+}
+
+.hover-flat:hover, 
+.hover-flat:focus, 
+.hover-flat:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.hover-flat:hover::before, 
+.hover-flat:focus::before, 
+.hover-flat:active::before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+
+.hover-radial {
+  box-shadow: 0 0 1px transparent;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0px);
+  transform: perspective(1px) translateZ(0px);
+}
+.hover-radial::before, 
+.hover-radial::after {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  content: "";
+  height: 5px;
+  left: 10%;
+  opacity: 0;
+  width: 80%;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.hover-radial::before {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% 150% ellipse , rgba(0, 0, 0, 0.6) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% 150% ellipse , rgba(0, 0, 0, 0.6) 0%, transparent 80%) repeat scroll 0 0;  
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 150% , rgba(0, 0, 0, 0.6) 0%, transparent 80%) repeat scroll 0 0;
+  bottom: 100%;
+}
+.hover-radial::after {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% -50% ellipse , rgba(0, 0, 0, 0.35) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% -50% ellipse , rgba(0, 0, 0, 0.35) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% -50% , rgba(0, 0, 0, 0.35) 0%, transparent 80%) repeat scroll 0 0;
+  top: 100%;
+}
+
+.btn-ripe.hover-radial::before,
+.video-inner .et-icon.bg-ripe:hover {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% 150% ellipse , rgba(245, 57, 108, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% 150% ellipse , rgba(245, 57, 108, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 150% , rgba(245, 57, 108, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+.btn-ripe.hover-radial::after {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% -50% ellipse , rgba(245, 57, 108, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% -50% ellipse , rgba(245, 57, 108, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% -50% , rgba(245, 57, 108, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+
+.btn-fisher.hover-radial::before,
+.video-inner .et-icon.bg-fisher:hover {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% 150% ellipse , rgba(102, 166, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% 150% ellipse , rgba(102, 166, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 150% , rgba(102, 166, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+.btn-fisher.hover-radial::after {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% -50% ellipse , rgba(102, 166, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% -50% ellipse , rgba(102, 166, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% -50% , rgba(102, 166, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+.btn-fader.hover-radial::before,
+.video-inner .et-icon.bg-fader:hover {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% 150% ellipse , rgba(161, 140, 209, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% 150% ellipse , rgba(161, 140, 209, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 150% , rgba(161, 140, 209, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+.btn-fader.hover-radial::after {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% -50% ellipse , rgba(161, 140, 209, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% -50% ellipse , rgba(161, 140, 209, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% -50% , rgba(161, 140, 209, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+
+.btn-wine.hover-radial::before,
+.video-inner .et-icon.bg-wine:hover {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% 150% ellipse , rgba(87, 61, 125, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% 150% ellipse , rgba(87, 61, 125, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 150% , rgba(87, 61, 125, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+.btn-wine.hover-radial::after {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% -50% ellipse , rgba(87, 61, 125, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% -50% ellipse , rgba(87, 61, 125, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% -50% , rgba(87, 61, 125, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+
+.btn-beach.hover-radial::before,
+.video-inner .et-icon.bg-beach:hover {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% 150% ellipse , rgba(118, 196, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% 150% ellipse , rgba(118, 196, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 150% , rgba(118, 196, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+.btn-beach.hover-radial::after {
+  background: rgba(0, 0, 0, 0) -webkit-radial-gradient(50% -50% ellipse , rgba(118, 196, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -o-radial-gradient(50% -50% ellipse , rgba(118, 196, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% -50% , rgba(118, 196, 255, 0.75) 0%, transparent 80%) repeat scroll 0 0;
+}
+
+.hover-radial:hover::before, 
+.hover-radial:focus::before, 
+.hover-radial:active::before, 
+.hover-radial:hover::after, 
+.hover-radial:focus::after, 
+.hover-radial:active::after {
+  opacity: 1;
+}
+

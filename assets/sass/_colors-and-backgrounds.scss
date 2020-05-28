@@ -1,0 +1,229 @@
+/* ==============================================
+ * COLORS & BACKGROUNDS CSS
+ * =========================================== */
+ 
+.gray {
+  color: #ddd; 
+}
+.ripe {
+  color: #f275b5; 
+}
+.fisher {
+  color: #78D0FE; 
+}
+.fader {
+  color: #a18cd1; 
+}
+
+.wine {
+  color: #FB4C7F; 
+}
+
+.beach {
+  color: #76c4ff; 
+}
+
+.bg-gray {
+  background-color: #F6F6F6;
+}
+.bg-gray-light {
+  background-color: #fafafa;
+}
+
+.bg-ripe {
+  background-image: -webkit-linear-gradient(bottom left, #f093fb 0%, #f5576c 100%);
+  background-image: linear-gradient(to top right, #f093fb 0%, #f5576c 100%);
+}
+
+.bg-fisher {
+  background-image: -webkit-linear-gradient(bottom left, #89f7fe 0%, #66a6ff 100%);
+  background-image: linear-gradient(to top right, #89f7fe 0%, #66a6ff 100%);
+}
+
+.bg-fader {
+  background-image: -webkit-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.bg-wine {
+  background-image: -webkit-linear-gradient(bottom left, #fb4c7f 0%, #573d7d 100%);
+  background-image: linear-gradient(to top right, #fb4c7f 0%, #573d7d 100%);
+}
+
+.bg-beach {
+  background-image: -webkit-linear-gradient(bottom left, #76c4ff 0%, #77bff8 100%);
+  background-image: linear-gradient(to top right, #76c4ff 0%, #77bff8 100%);
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.bg-stars-top-left {
+  background-image: url(../img/particle-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 450px 520px;
+}
+
+.bg-stars-bot-right {
+  background-image: url(../img/particle-bg-bot-right.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 450px 520px;
+}
+
+.bg-ink {
+  background-image: url(../img/colour-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 100% auto;
+}
+.bg-pattern {
+  background-image: url(../img/parallax/pattern.png);
+  background-repeat:repeat;
+}
+
+.bg-water {
+  background-image: url(../img/bg-water.jpg);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.bg-phone {
+  background-image: url(../img/bg-phone.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+}
+.bg-parallax-persons{
+  background-image: url(../img/parallax/bg-peoples.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.bg-parallax-mountain {
+  background-image: url(../img/parallax/parallax-bg-1.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg-parallax-angle {
+  background-image: url(../img/parallax/parallax-bg-2.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg-parallax-phone-2,
+.bg-parallax-phone-2-dark {
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+.bg-parallax-phone-2 {
+  background-image: url(../img/parallax/angle-phone-1.png);
+}
+.bg-parallax-phone-2-dark {
+  background-image: url(../img/parallax/angle-phone-2.png);
+
+}
+
+
+/* overlay */
+.overlay-light {
+  position: relative;
+}
+.overlay-light:before {
+  content :"";
+  background-image: linear-gradient(45deg, #fff 0%, #fff 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.65;
+}
+.overlay-ripe {
+  position: relative;
+}
+.overlay-ripe:before {
+  content :"";
+  background-image: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+}
+.overlay-fisher {
+  position: relative;
+}
+.overlay-fisher:before {
+  content :"";
+  background-image: linear-gradient(45deg, #89f7fe 0%, #66a6ff 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+}
+.fisher-light.overlay-fisher:before {
+  opacity: 0.85;
+}
+
+
+.overlay-fader {
+  position: relative;
+}
+.overlay-fader:before {
+  content :"";
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+}
+
+.overlay-wine {
+  position: relative;
+}
+.overlay-wine:before {
+  content :"";
+  background-image: linear-gradient(45deg, #fb4c7f 0%, #573d7d 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+}
+.overlay-light.overlay-wine:before {
+  opacity: 0.85;
+}
+
+.overlay-beach {
+  position: relative;
+}
+.overlay-beach:before {
+  content :"";
+  background-image: linear-gradient(45deg, #76c4ff 0%, #77bff8 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+}
+.overlay-beach.overlay-wine:before {
+  opacity: 0.85;
+}
+

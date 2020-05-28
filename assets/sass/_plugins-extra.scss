@@ -1,0 +1,110 @@
+/* ========================================
+ * Cstom Scroll bar
+ * ======================================== */
+.mCSB_scrollTools .mCSB_draggerContainer {
+  right: -7px;
+}
+.mCSB_inside>.mCSB_container {
+  margin-right: 0px;
+}
+ /* ========================================
+ * SWIPER SLIDER CSS
+ * ======================================== */
+.swiper-3d-gallery {
+	width: 100%;
+}
+.swiper-3d-gallery .swiper-slide {
+	background-position: center;
+	background-size:100% 100%;
+	width: 260px;
+	height: 460px;
+}
+.swiper-3d-gallery .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-review {
+  padding-bottom: 50px;
+}
+
+.white .swiper-pagination-bullet {
+  background: #fff none repeat scroll 0 0;
+}
+.white .swiper-pagination-bullet-active {
+  background: #fff none repeat scroll 0 0;
+  opacity: 1;
+}
+
+.clients-logos {
+  text-align: center;
+}
+
+.clients-logos .swiper-slide {
+  cursor: pointer;
+}
+.clients-logos .swiper-slide img {
+  opacity: 0.35;
+  transition: all 0.3s ease 0s;
+}
+
+.clients-logos .swiper-slide img:hover {
+  opacity: 0.5;
+}
+
+
+.phone-slide-gallery .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-review {
+  text-align: center;
+}
+.reviewer {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.single-review img {
+  width: 100%;
+}
+.single-review h3 {
+  text-transform: uppercase;
+}
+.single-review h4 {
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin: 25px auto 0;
+}
+
+.single-review.white h3,
+.single-review.white p,
+.single-review.white h4 {
+  color: #fff;
+}
+
+
+.swiper-gallery-normal {}
+.swiper-gallery-normal .swiper-slide {}
+.swiper-gallery-normal .swiper-slide img {
+	width: 100%;
+}
+
+
+
+/* ===================================
+ * Ripple CSS
+ * ================================== */
+#c {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  z-index: -1;
+} 
+canvas#bg {
+    display: none;
+}

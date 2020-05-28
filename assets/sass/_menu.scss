@@ -1,0 +1,355 @@
+// MENU VARIABLES
+  $nav-color: #7d7d7d;
+  $nav-ripe:  #f275b5;
+  $nav-fisher:  #78d0fe;
+  $nav-fader:  #a18cd1;
+  $nav-wine:  #fb4c7f;
+
+/* ===================================
+ * MENU CSS
+ =================================== */
+nav.navbar.bootsnav {
+  border: none;
+}
+.navbar-brand {
+  height: 70px;
+}
+.navbar-default .navbar-brand {
+  font-size: 36px;
+  font-family: $secondary-font;
+  padding-top: 18px;
+  transition: all 0.3s ease 0s;
+}
+
+nav.ripe .navbar-brand {
+  color: $nav-ripe;
+}
+nav.fisher .navbar-brand {
+  color: $nav-fisher;
+}
+nav.fader .navbar-brand {
+  color: $nav-fader
+}
+nav.wine .navbar-brand {
+  color: $nav-wine;
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+   opacity: 0.85;
+}
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+  color: inherit;
+}
+.white.no-background.fisher .navbar-brand,
+.white.no-background.fader .navbar-brand,
+.white.no-background.wine .navbar-brand {
+  color: #fff;
+}
+
+
+nav.navbar.bootsnav {
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+}
+
+
+nav.navbar.bootsnav ul.nav > li > a {
+  color: $nav-color;
+  font-weight: 300;
+  padding: 25px 15px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+
+nav.navbar-full .attr-nav {
+  margin: 0;
+  position: absolute;
+  right: 70px;
+  top: 13px;
+}
+nav.navbar-full .attr-nav > ul > li > a {
+  border: medium none;
+  border-radius: 50%;
+  color: $nav-fader;
+  display: block;
+  font-size: 25px;
+  height: 35px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 35px;
+}
+nav.navbar-full.no-background .attr-nav > ul > li > a {
+  color: #fff;
+}
+
+nav.navbar-full .attr-nav > ul > li > a:hover,
+nav.navbar-full .attr-nav > ul > li > a:focus {
+  background: transparent;
+}
+
+nav.bootsnav.navbar-full {
+  padding: 0;
+
+}
+nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu,
+nav.bootsnav.navbar-full .navbar-collapse .nav-full {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+nav.navbar.navbar-full.bootsnav ul.nav > li > a {
+	display: inline-block;
+}
+nav.navbar.navbar-full.no-background.bootsnav ul.nav > li.scroll > a {
+  padding: 15px;
+}
+nav.bootsnav.navbar-full .navbar-collapse ul.nav > li.close-full-menu > a {
+  padding: 10px 15px;
+}
+nav.navbar-full.bootsnav .navbar-toggle,
+nav.navbar-full.bootsnav .navbar-brand {
+  color: $nav-fader;
+}
+nav.navbar-full.bootsnav.no-background .navbar-toggle,
+nav.navbar-full.bootsnav.no-background .navbar-brand {
+  color: #fff;
+}
+nav.navbar.navbar-full.bootsnav ul.nav > li.active > a, 
+nav.navbar.navbar-full.bootsnav ul.nav > li.active > a:focus, 
+nav.navbar.navbar-full.bootsnav ul.nav > li.active > a:hover, 
+nav.navbar.navbar-full.bootsnav ul.nav > li > a:focus, 
+nav.navbar.navbar-full.bootsnav ul.nav > li > a:hover,
+nav.navbar.navbar-full.no-background.bootsnav ul.nav > li.active > a, 
+nav.navbar.navbar-full.no-background.bootsnav ul.nav > li.active > a:focus, 
+nav.navbar.navbar-full.no-background.bootsnav ul.nav > li.active > a:hover, 
+nav.navbar.navbar-full.no-background.bootsnav ul.nav > li > a:focus, 
+nav.navbar.navbar-full.no-background.bootsnav ul.nav > li > a:hover {
+  background-color: $nav-fader;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+}
+
+nav.navbar.bootsnav ul.nav > li.active > a,
+nav.navbar.bootsnav ul.nav > li.active > a:focus,
+nav.navbar.bootsnav ul.nav > li.active > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus,
+nav.navbar.bootsnav ul.nav > li > a:hover {
+  background-color: #f3f3f3;
+  color: #111;
+  margin: 0;
+  display: inline-block;
+}
+
+
+nav.navbar.bootsnav.ripe ul.nav > li.active > a,
+nav.navbar.bootsnav.ripe ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.ripe ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.ripe ul.nav > li > a:focus,
+nav.navbar.bootsnav.ripe ul.nav > li > a:hover {
+  background-color: $nav-ripe;
+  color: #fff;
+  margin: 0;
+}
+
+nav.navbar.bootsnav.fisher ul.nav > li.active > a,
+nav.navbar.bootsnav.fisher ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.fisher ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.fisher ul.nav > li > a:focus,
+nav.navbar.bootsnav.fisher ul.nav > li > a:hover {
+  background-color: $nav-fisher;
+  color: #fff;
+  margin: 0;
+}
+nav.navbar.bootsnav.fader ul.nav > li.active > a,
+nav.navbar.bootsnav.fader ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.fader ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.fader ul.nav > li > a:focus,
+nav.navbar.bootsnav.fader ul.nav > li > a:hover {
+  background-color: $nav-fader;
+  color: #fff;
+  margin: 0;
+}
+
+nav.navbar.bootsnav.wine ul.nav > li.active > a,
+nav.navbar.bootsnav.wine ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.wine ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.wine ul.nav > li > a:focus,
+nav.navbar.bootsnav.wine ul.nav > li > a:hover {
+  background-color: $nav-wine;
+  color: #fff;
+  margin: 0;
+}
+
+nav.navbar.bootsnav.no-background ul.nav > li > a,
+nav.navbar.bootsnav.no-background.ripe ul.nav > li > a,
+nav.navbar.bootsnav.no-background.fisher ul.nav > li > a,
+nav.navbar.bootsnav.no-background.fader ul.nav > li > a,
+nav.navbar.bootsnav.no-background.wine ul.nav > li > a {
+  padding: 30px 15px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+nav.navbar.bootsnav.no-background ul.nav > li.active > a,
+nav.navbar.bootsnav.no-background ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.no-background ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.no-background ul.nav > li > a:focus,
+nav.navbar.bootsnav.no-background ul.nav > li > a:hover {
+  color: #383838;
+  margin: 0;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+nav.navbar.bootsnav.no-background.fisher.white ul.nav > li.active > a,
+nav.navbar.bootsnav.no-background.fisher.white ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.no-background.fisher.white ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.no-background.fisher.white ul.nav > li > a:focus,
+nav.navbar.bootsnav.no-background.fisher.white ul.nav > li > a:hover,
+nav.navbar.bootsnav.no-background.fader ul.nav > li.active > a,
+nav.navbar.bootsnav.no-background.fader ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.no-background.fader ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.no-background.fader ul.nav > li > a:focus,
+nav.navbar.bootsnav.no-background.fader ul.nav > li > a:hover,
+nav.navbar.bootsnav.no-background.wine ul.nav > li.active > a,
+nav.navbar.bootsnav.no-background.wine ul.nav > li.active > a:focus,
+nav.navbar.bootsnav.no-background.wine ul.nav > li.active > a:hover,
+nav.navbar.bootsnav.no-background.wine ul.nav > li > a:focus,
+nav.navbar.bootsnav.no-background.wine ul.nav > li > a:hover {
+  color: #fff;
+}
+
+nav.navbar.navbar-full.bootsnav.no-background.fisher.white ul.nav > li.active > a,
+nav.navbar.navbar-full.bootsnav.no-background.fisher.white ul.nav > li.active > a:focus,
+nav.navbar.navbar-full.bootsnav.no-background.fisher.white ul.nav > li.active > a:hover,
+nav.navbar.navbar-full.bootsnav.no-background.fisher.white ul.nav > li > a:focus,
+nav.navbar.navbar-full.bootsnav.no-background.fisher.white ul.nav > li > a:hover,
+nav.navbar.navbar-full.bootsnav.no-background.fader ul.nav > li.active > a,
+nav.navbar.navbar-full.bootsnav.no-background.fader ul.nav > li.active > a:focus,
+nav.navbar.navbar-full.bootsnav.no-background.fader ul.nav > li.active > a:hover,
+nav.navbar.navbar-full.bootsnav.no-background.fader ul.nav > li > a:focus,
+nav.navbar.navbar-full.bootsnav.no-background.fader ul.nav > li > a:hover,
+nav.navbar.navbar-full.bootsnav.no-background.wine ul.nav > li.active > a,
+nav.navbar.navbar-full.bootsnav.no-background.wine ul.nav > li.active > a:focus,
+nav.navbar.navbar-full.bootsnav.no-background.wine ul.nav > li.active > a:hover,
+nav.navbar.navbar-full.bootsnav.no-background.wine ul.nav > li > a:focus,
+nav.navbar.navbar-full.bootsnav.no-background.wine ul.nav > li > a:hover {
+  color: $nav-ripe;
+}
+
+nav.navbar.bootsnav.no-background .navbar-brand {
+  font-size: 30px;
+  padding-top: 18px;
+}
+
+/* navbr transparent */
+nav.navbar.bootsnav.no-background.white .attr-nav > ul > li > a, 
+nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, 
+nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, 
+nav.navbar.bootsnav.no-background.white ul.nav > li > a {
+  color: #fff;
+}
+nav.navbar.bootsnav.no-background.dark .attr-nav > ul > li > a, 
+nav.navbar.bootsnav.navbar-transparent.dark .attr-nav > ul > li > a, 
+nav.navbar.bootsnav.navbar-transparent.dark ul.nav > li > a, 
+nav.navbar.bootsnav.no-background.dark ul.nav > li > a {
+  color: #383838;
+}
+
+nav.bootsnav.brand-center ul.nav {
+  margin-bottom: -10px !important;
+}
+nav.navbar.bootsnav.brand-center ul.nav > li > a {
+  margin-bottom: 2px;
+}
+nav.navbar.bootsnav .navbar-toggle {
+  font-size: 40px;
+  background: transparent;
+}
+
+/* navbar social */
+.attr-nav > ul {
+  margin: 0 0 0 20px;
+}
+.attr-nav > ul > li > a {
+  border: 1px solid #e3e3e3;
+  border-radius: 50%;
+  color: #292929;
+  display: block;
+  height: 30px;
+  margin: 20px 3px 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 30px;
+  font-size:14px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+}
+.attr-nav > ul > li > a:hover {
+ background-color: #f7f7f7;
+}
+
+
+/* navbar sidebar */
+nav.no-background .custom-attr-nav .side-menu > a {
+  border: none;
+  color: #fff;
+  font-size: 40px;
+}
+.custom-attr-nav .side-menu > a {
+  border: medium none;
+  font-size: 33px;
+  color: $nav-fisher;
+}
+.custom-attr-nav .side-menu > a:hover,
+.custom-attr-nav .side-menu > a:focus {
+  background: none;
+}
+
+.sidebar-ceo {
+  color: #ffff;
+  margin-top: 30px;
+  text-align: center;
+}
+.sidebar-ceo img {
+  border-radius: 50%;
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+  width: 80px;
+}
+.sidebar-ceo h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 25px auto 15px;
+}
+.sidebar-ceo p {
+  font-size: 13px;
+  line-height: 24px;
+}
+.sidebar-ceo a {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50px;
+  box-shadow: 0px 1px 3px #000;
+  color: #222;
+  display: inline-block;
+  font-size: 13px;
+  height: 35px;
+  line-height: 34px;
+  margin: 10px 3px;
+  width: 35px;
+  transition: all 0.5s ease 0s;
+}
+.sidebar-ceo a:hover {
+  background: #3d3d3d none repeat scroll 0 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}

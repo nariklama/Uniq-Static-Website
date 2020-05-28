@@ -1,0 +1,80 @@
+$footer-dark-bg: #333;
+$footer-dark-color: #fff;
+
+/* =========================================
+ * FOOTER CSS
+ * ====================================== */
+ .footer {
+   position: relative;
+ }
+.footer-left {} 
+.footer-left .footer-logo {
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #929292;
+} 
+.footer-left h2 {
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin: 25px auto 20px;
+}
+ 
+.footer-right {} 
+.footer-right .et-icon {
+  font-size: 60px;
+  color:#929292;
+} 
+.footer-right h1 {
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin: 30px auto 20px;
+}
+ 
+  
+.footer.shadow-50 {
+ background-color: #fff;
+ box-shadow: 0 0 50px rgba(0,0,0,0.1);
+}
+
+.footer.dark {
+  background-color: $footer-dark-bg;
+  color: $footer-dark-color;
+}
+.footer.dark .footer-left .footer-logo,
+.footer.dark .footer-left h2,
+.footer.dark .footer-left a,
+.footer.dark .footer-right .et-icon,
+.footer.dark .footer-right h1,
+.footer.dark p,
+.footer.dark h4  {
+  color: $footer-dark-color;
+}
+
+/* footer scroll to top */
+#scrollUp {
+  background-color: #333;
+  border-radius: 50%;
+  bottom: 35px;
+  box-shadow: 0 15px 12px 0 rgba(0, 0, 0, 0.22), 0 19px 38px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: block;
+  font-size: 0;
+  height: 38px;
+  line-height: 36px;
+  right: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 38px;
+}
+#scrollUp:before {
+  content: "\f102";
+  font-size: 18px;
+  font-family: fontawesome;
+}
+
+#scrollUp:focus,
+#scrollUp:hover {
+  color: #fff;
+  opacity: 0.85;
+}
